@@ -11,7 +11,7 @@ def janken
     puts "ホイ！"
   else
     puts "じゃんけんを終了します"
-    retuen false
+   exit
   end
   
   puts "---------------------"
@@ -34,7 +34,7 @@ def janken
     puts "ショ！"
   else
     puts "じゃんけんを終了します"
-    retuen false
+    exit
   end
   
   puts "---------------------"
